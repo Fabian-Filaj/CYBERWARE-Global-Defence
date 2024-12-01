@@ -1,0 +1,608 @@
+.phone-layout {
+    display: none;
+}
+
+.seachIcon,
+.hamburgerMenuIcon {
+    display: none;
+}
+
+/* phone */
+@media (max-width: 452px) {
+
+    button {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .boldText {
+        font-weight: 500;
+    }
+
+    .orangeText {
+        font-weight: 500;
+    }
+
+    .popUpBio-container {
+        padding: 10px 20px 20px;
+
+        p {
+            font-size: 14px;
+            line-height: 1.3;
+        }
+    }
+
+    /* Header */
+    header .bottom-section {
+        display: none;
+    }
+
+    .top-section {
+        padding: 3px 10px;
+
+        .rightSection-plan-support {
+            display: none;
+        }
+    }
+
+    .rightSection {
+        gap: 10px
+    }
+
+    .seachIcon,
+    .hamburgerMenuIcon {
+        display: block;
+    }
+
+    /* Hamburger Menu Styles */
+    .hamburger-menu {
+        position: absolute;
+        width: 100%;
+        background-color: #323232;
+        padding: 15px 20px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid #FF6F0F;
+    }
+
+    .hamburger-menu ul {
+        text-align: center;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .hamburger-menu li {
+        margin: 20px 0;
+    }
+
+    .hamburger-menu a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .hamburgerMenuIcon {
+        cursor: pointer;
+    }
+
+    /* Mega Menu */
+    .services-dropdown .dropdown-content {
+        left: 0%;
+
+    }
+
+    .services-dropdown {
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+
+    /* Hero Section */
+    .heroSection {
+        text-align: center;
+
+        h4 {
+            font-size: 17px;
+        }
+
+        h1 {
+            padding-top: 15px;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .dynamic-layout {
+            display: none;
+        }
+
+        .phone-layout {
+            display: block;
+
+            .mainHeader {
+                padding: 0;
+            }
+
+            .underlineHero {
+                border: none;
+                height: 3px;
+                background-color: #FF6F0F;
+                width: 50%;
+                margin: 0 auto 20px;
+            }
+
+            .quote-text {
+                padding-top: 20px;
+                font-size: 15px;
+                line-height: 1.5;
+                margin: 0 auto;
+                max-width: 90%;
+            }
+        }
+
+        .homeHeroButtons {
+            flex-direction: column;
+            align-items: center;
+
+            .freeConsultationBtn {
+                padding: 10px 20px;
+            }
+
+            button {
+                padding: 10px 40px;
+            }
+        }
+
+        .industriesShortLinks {
+            font-size: 13px;
+            border-left: 1px solid #FF6F0F;
+            padding-left: 12px;
+        }
+    }
+
+    .servicesHomepage {
+        text-align: center;
+    }
+
+
+    .whoWeAreSection {
+        .container {
+            width: 95% !important;
+        }
+
+        .whoWeAreIconsContainer {
+            flex-direction: column;
+            align-items: center;
+
+            .whoWeAreIcons {
+                margin-top: 20px;
+                width: 90%;
+
+                .iconImage {
+                    width: 40px;
+                }
+            }
+        }
+    }
+
+    .vidoeoSection {
+        padding: 1rem 1rem 0rem;
+
+        .vidoeoSectionLeftSide {
+            text-align: center;
+            padding: 0;
+
+            button {
+                align-items: center;
+                padding: 10px 0px;
+                width: 50%;
+            }
+        }
+    }
+
+
+    .IndustriesWeServeIcons {
+        padding: 0;
+
+        .icon-row {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .icon-wrapper {
+            width: 45%;
+            margin: 30px 0;
+        }
+
+        .line-across {
+            display: none;
+        }
+    }
+
+
+    .ourLeadershipTeam {
+        .ourLeadershipTeam-text {
+            width: 90%;
+            padding-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .ourPartnerCards {
+            margin-bottom: 5rem
+        }
+
+        .cardContainer {
+            padding: 0;
+        }
+
+        .ourPartnerCards-PopUp {
+            .backArrow {
+                width: 50px;
+            }
+        }
+
+        .rightSideOrange {
+            margin-top: 2rem;
+
+            h3 {
+                padding: 30px 0 0 20px;
+            }
+        }
+    }
+
+    .reachOutSection-container {
+        padding: 0;
+
+
+        .reachOutSection {
+            width: 90%;
+            padding: 2rem 0 1rem;
+
+            h5 {
+                font-size: 14px;
+            }
+
+            .form input {
+                padding: 10px 0px;
+                border: none;
+            }
+
+            button {
+                padding: 10px 25px;
+            }
+        }
+    }
+
+
+    .certificationImg {
+        width: 50%;
+        padding-bottom: 2rem;
+
+    }
+
+    .cetificationText {
+        h1 {
+            text-align: center;
+        }
+
+        h5 {
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .certificationBtn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .stayInformed {
+        h1 {
+            font-size: 23px;
+        }
+
+        .form-content .form-row {
+            input {
+                width: 120px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .review-container {
+        padding: 1rem 0 1rem;
+
+        .review-row {
+            padding-bottom: 10px;
+
+        }
+    }
+
+    /* Footer */
+    .footer-container {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer-left {
+        margin: 0 auto;
+        max-width: 200px;
+    }
+
+    .footer-middle {
+        display: block;
+    }
+
+    .footer-row {
+        display: block;
+    }
+
+    .footer-row div {
+        margin-bottom: 30px;
+    }
+
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer-right form {
+        gap: 8px;
+    }
+
+    .footer-right input,
+    .footer-right textarea {
+        font-size: 14px;
+
+    }
+
+    .footer-right button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .contact-info {
+        img {
+            margin: 0 auto;
+            max-width: fit-content;
+        }
+
+        span img {
+            padding-right: 10px;
+        }
+    }
+
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        a {
+            padding: 0px 10px;
+        }
+    }
+
+
+
+    /* About page */
+    .aboutPageHero {
+        height: 50vh;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .aboutPageCard {
+        margin-top: 2rem;
+
+    }
+
+    .ourLocations {
+        height: auto;
+
+        h1 {
+            padding-top: 0px;
+            font-size: 30px;
+        }
+
+    }
+
+    .partners {
+        .ourPartnerCards {
+            margin-bottom: 5rem
+        }
+    }
+
+    .cybersecuritySpecialists {
+        .ourPartnerCards {
+            margin-bottom: 5rem
+        }
+    }
+
+    /* Industries */
+    .industriesHero {
+        height: 50vh;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h5 {
+            font-size: 17px;
+        }
+    }
+
+    .industriesCard {
+        padding: 20px;
+
+        img {
+            width: 60px;
+        }
+
+        p {
+            font-size: 14px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .partnershipHero {
+        h1 {
+            font-size: 40px;
+        }
+
+        h5 {
+            font-size: 17px;
+        }
+    }
+
+    .partnershipCards {
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .left-review-partnership {
+        padding: 10px;
+        gap: 20px;
+
+        img {
+            width: 80px;
+        }
+
+        .review-content {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .review-card {
+        gap: 10px;
+        padding: 30px;
+        height: 250px;
+
+        img {
+            width: 50px;
+            height: 50px;
+
+        }
+
+        .review-content {
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .stars-img {
+            height: 20px;
+        }
+    }
+
+    /* Contact page */
+    .contactPage {
+        h3 {
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .whatNext {
+            padding-bottom: 20px;
+
+        }
+    }
+
+    /* Jobs */
+    .jobsHero {
+        h1 {
+            font-size: 40px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+    }
+
+    .jobFilters {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0 0;
+
+    }
+
+    .jobFilters select {
+        width: 70%;
+    }
+
+    .jobType div {
+        padding: 8px 15px;
+    }
+
+    .jobListingCard {
+        padding: 20px;
+    }
+
+    .newsLetterHero {
+
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    .relatedNewsCard {
+        
+        .bookMarkIcon {
+            width: 25px;
+            height: 25px;
+        }
+    }
+  
+    .readMoreSection{
+        .review-card{
+            height: 420px;
+        }
+.relatedNewsCardContainer{
+    .relatedNewsCard{
+        margin-top: 0;
+    }
+}
+    }
+}
+
+
+
+/* Tablets */
+@media (min-width: 453) and (max-width: 768px) {
+    
+
+    .top-section {
+        padding:0;
+
+        /* .rightSection-plan-support {
+            display: none;
+        } */
+    }
+}
